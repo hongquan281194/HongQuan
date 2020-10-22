@@ -16,7 +16,7 @@ int main(){
 	float Q;
 	Q=(float)P/2;
 	float S;
-	S=sqrt(Q*(Q-x)*(Q-y)*(Q-z));
+	S=(Q*(Q-x)*(Q-y)*(Q-z));
 	printf("Chu vi la %d",P);
 	printf("Dien tich la %f",S);
 	
